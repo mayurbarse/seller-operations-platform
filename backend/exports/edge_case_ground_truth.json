@@ -1,0 +1,37 @@
+[
+  {
+    "scenario_id": "EDGE-001",
+    "issue_type": "payout_before_delivery",
+    "entity_type": "payout_line",
+    "description": "A payout must not be released before its order line has been delivered and the required hold period has passed.",
+    "expected_detection": "Flag a paid or released payout line whose delivery or reserve conditions are incomplete."
+  },
+  {
+    "scenario_id": "EDGE-002",
+    "issue_type": "commission_applied_twice",
+    "entity_type": "payout_line",
+    "description": "A commission must be deducted only once for an order line.",
+    "expected_detection": "Compare the commission amount against the applicable seller commission rule."
+  },
+  {
+    "scenario_id": "EDGE-003",
+    "issue_type": "suspended_seller_listing",
+    "entity_type": "product_listing",
+    "description": "A suspended seller must not continue selling through an active listing.",
+    "expected_detection": "Flag active listings belonging to suspended sellers."
+  },
+  {
+    "scenario_id": "EDGE-004",
+    "issue_type": "dispute_not_deducted",
+    "entity_type": "payout_line",
+    "description": "A lost or refunded dispute must be reflected in the seller payout calculation.",
+    "expected_detection": "Compare dispute outcomes with payout deductions."
+  },
+  {
+    "scenario_id": "EDGE-005",
+    "issue_type": "payout_total_mismatch",
+    "entity_type": "payout",
+    "description": "The payout total must equal the sum of its payout line net amounts.",
+    "expected_detection": "Recalculate payout totals from their payout lines."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "check": "Unique seller IDs",
+    "passed": true,
+    "detail": "2000 seller records"
+  },
+  {
+    "check": "Unique customer IDs",
+    "passed": true,
+    "detail": "20000 customer records"
+  },
+  {
+    "check": "Unique listing IDs",
+    "passed": true,
+    "detail": "20000 listing records"
+  },
+  {
+    "check": "Unique order IDs",
+    "passed": true,
+    "detail": "100000 order records"
+  },
+  {
+    "check": "Unique order-line IDs",
+    "passed": true,
+    "detail": "200062 order-line records"
+  },
+  {
+    "check": "Unique dispute IDs",
+    "passed": true,
+    "detail": "10000 dispute records"
+  },
+  {
+    "check": "Exact dispute target",
+    "passed": true,
+    "detail": "Expected 10000; generated 10000"
+  },
+  {
+    "check": "Listing seller references",
+    "passed": true,
+    "detail": "All listings reference existing sellers"
+  },
+  {
+    "check": "Order customer references",
+    "passed": true,
+    "detail": "All orders reference existing customers"
+  },
+  {
+    "check": "Order-line references",
+    "passed": true,
+    "detail": "Order lines reference existing records"
+  },
+  {
+    "check": "Fulfillment count",
+    "passed": true,
+    "detail": "One fulfillment per order line"
+  },
+  {
+    "check": "Date ordering",
+    "passed": true,
+    "detail": "Delivery does not occur before shipment"
+  },
+  {
+    "check": "Payout reconciliation",
+    "passed": true,
+    "detail": "Payout totals equal payout-line net amounts"
+  }
+]

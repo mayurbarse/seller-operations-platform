@@ -1,0 +1,28 @@
+{
+  "project": "Seller Operations Platform",
+  "seed": 20261022,
+  "end_date": "2026-10-22T00:00:00",
+  "requested_counts": {
+    "sellers": 2000,
+    "customers": 20000,
+    "listings": 20000,
+    "orders": 100000,
+    "disputes": 10000
+  },
+  "generated_counts": {
+    "sellers": 2000,
+    "customers": 20000,
+    "product_listings": 20000,
+    "orders": 100000,
+    "order_lines": 200062,
+    "fulfillments": 200062,
+    "customer_reviews": 18105,
+    "disputes": 10000,
+    "commission_rules": 2000,
+    "payouts": 7995,
+    "payout_lines": 200062,
+    "state_events": 202000
+  },
+  "ground_truth_scenarios": 5,
+  "ground_truth_file": "edge_case_ground_truth.json"
+}

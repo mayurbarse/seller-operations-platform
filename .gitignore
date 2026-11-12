@@ -1,0 +1,36 @@
+﻿# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Build and editor files
+dist/
+build/
+.coverage
+htmlcov/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary generator test files
+backend/seller_test_exports/
+backend/app/generators/*.pre_scenarios_backup

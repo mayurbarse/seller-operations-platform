@@ -1,0 +1,66 @@
+{
+  "seed": 20261022,
+  "generated_at": "2026-11-12T14:33:01.790321",
+  "files": {
+    "commission_rules.csv": {
+      "sha256": "6499359474b26243f0d6efd4b3b8b240c6c2e067fc2d79c32746a34e28a39c9c",
+      "size_bytes": 108099
+    },
+    "customer_reviews.csv": {
+      "sha256": "23d03e9607edd11d8efef8d534e7e2d8ed21ab1c53d883e442c2af84ce55df4e",
+      "size_bytes": 2056199
+    },
+    "customers.csv": {
+      "sha256": "bb3249b20b5087a634388fc4e87c50802b55234c756ea011fcd60f9e39ef230f",
+      "size_bytes": 1148924
+    },
+    "disputes.csv": {
+      "sha256": "4d1296a1bc4f13fac27dd95e167a4e96fbbe682199a860e312da5d649f56ccf4",
+      "size_bytes": 1340082
+    },
+    "edge_case_ground_truth.json": {
+      "sha256": "953aa9d6360dece6b21c4276b028ba6b3e9e544162f519a53d15dae23179e1f5",
+      "size_bytes": 1587
+    },
+    "fulfillments.csv": {
+      "sha256": "c212249dc3338f6d7f73a03a900523eb737e5dd4ee0bb0b7be75d9e5be9184be",
+      "size_bytes": 21232257
+    },
+    "order_lines.csv": {
+      "sha256": "d826d61b203d10c249230145a7cf7a1c23587acc9475d1b50e7f3369dd73c696",
+      "size_bytes": 20376201
+    },
+    "orders.csv": {
+      "sha256": "f217ea022098fb2556ca225a49f68ae734d6c211e71c4c10ad85054c390165c8",
+      "size_bytes": 7138420
+    },
+    "payout_lines.csv": {
+      "sha256": "3882eb0ff6eeaef7b615cb16465ff56f8df7a1d13cc95d07c322fa4eabb65877",
+      "size_bytes": 27772876
+    },
+    "payouts.csv": {
+      "sha256": "02333786849760b4dafe7fc87361a8d8437ea5ef885dcc55e7fae41fd3166244",
+      "size_bytes": 730381
+    },
+    "product_listings.csv": {
+      "sha256": "e8309849348a3db84840bf05149dcd6e8ad09c4f2161b1dccb6c53315c700f5b",
+      "size_bytes": 2216670
+    },
+    "sellers.csv": {
+      "sha256": "2ce636c1fdea8c3573563d62c83c746ce8379f920ed7ad5321db24b84e72139b",
+      "size_bytes": 176597
+    },
+    "state_events.csv": {
+      "sha256": "826e308bf655645be217412ffe82637931bee22f13a3fd6ad76438a28adb56ee",
+      "size_bytes": 20830307
+    },
+    "validation_checks.json": {
+      "sha256": "d496929463ec9e1ff8477a7a51a7d619b757c5a23bf02d6a5780456234d1e0fe",
+      "size_bytes": 1509
+    },
+    "validation_summary.json": {
+      "sha256": "ee8f1f01bc6ab1c98348ce6480c4821c83aa92030d7b3539c950f91e2229c450",
+      "size_bytes": 697
+    }
+  }
+}
