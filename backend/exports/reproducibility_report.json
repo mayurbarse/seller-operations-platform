@@ -1,0 +1,92 @@
+{
+    "scale":  "starter",
+    "files":  [
+                  {
+                      "File":  "commission_rules.csv",
+                      "Run1Rows":  50,
+                      "Run2Rows":  50,
+                      "Run1SHA256":  "3F776D152FDCA64B9207BB134E3E8315BB5994B6305F67C5DAB61A9239DCA3A8",
+                      "Run2SHA256":  "3F776D152FDCA64B9207BB134E3E8315BB5994B6305F67C5DAB61A9239DCA3A8"
+                  },
+                  {
+                      "File":  "customers.csv",
+                      "Run1Rows":  500,
+                      "Run2Rows":  500,
+                      "Run1SHA256":  "B06748E3051B43F99D56E9BE23203E326CD1A220F57909523357EAFCA240D84D",
+                      "Run2SHA256":  "B06748E3051B43F99D56E9BE23203E326CD1A220F57909523357EAFCA240D84D"
+                  },
+                  {
+                      "File":  "customer_reviews.csv",
+                      "Run1Rows":  168,
+                      "Run2Rows":  168,
+                      "Run1SHA256":  "90F94DF6EE4F14E25D18C5B7B38AEDC1EB67E075C5DD54F13ADFF3D59D713049",
+                      "Run2SHA256":  "90F94DF6EE4F14E25D18C5B7B38AEDC1EB67E075C5DD54F13ADFF3D59D713049"
+                  },
+                  {
+                      "File":  "disputes.csv",
+                      "Run1Rows":  100,
+                      "Run2Rows":  100,
+                      "Run1SHA256":  "CEBDDF608523F284BCFCEB80CB9BECA86D184079F12A59C8A86EECDF961F2AD8",
+                      "Run2SHA256":  "CEBDDF608523F284BCFCEB80CB9BECA86D184079F12A59C8A86EECDF961F2AD8"
+                  },
+                  {
+                      "File":  "fulfillments.csv",
+                      "Run1Rows":  2008,
+                      "Run2Rows":  2008,
+                      "Run1SHA256":  "FC82D33B9FF1A0965423DDFFA81A98A49A21FE86FCB9482C9F247EB9E7C6A934",
+                      "Run2SHA256":  "FC82D33B9FF1A0965423DDFFA81A98A49A21FE86FCB9482C9F247EB9E7C6A934"
+                  },
+                  {
+                      "File":  "orders.csv",
+                      "Run1Rows":  1000,
+                      "Run2Rows":  1000,
+                      "Run1SHA256":  "A61EBCB5653AC49F4B4F4A7B13ED5BE78EB2975BAA5719295A621BB71D5528A0",
+                      "Run2SHA256":  "A61EBCB5653AC49F4B4F4A7B13ED5BE78EB2975BAA5719295A621BB71D5528A0"
+                  },
+                  {
+                      "File":  "order_lines.csv",
+                      "Run1Rows":  2008,
+                      "Run2Rows":  2008,
+                      "Run1SHA256":  "3BD2031F01FE5EE4120BE1E9D30519375CE8B468138A374D673D20D5AC4C18CD",
+                      "Run2SHA256":  "3BD2031F01FE5EE4120BE1E9D30519375CE8B468138A374D673D20D5AC4C18CD"
+                  },
+                  {
+                      "File":  "payouts.csv",
+                      "Run1Rows":  199,
+                      "Run2Rows":  199,
+                      "Run1SHA256":  "D74C0262FB3B34A9201456C76FF4C05CA7A50E494C4AF7CDA84AF8035C49E027",
+                      "Run2SHA256":  "D74C0262FB3B34A9201456C76FF4C05CA7A50E494C4AF7CDA84AF8035C49E027"
+                  },
+                  {
+                      "File":  "payout_lines.csv",
+                      "Run1Rows":  2008,
+                      "Run2Rows":  2008,
+                      "Run1SHA256":  "B27DF8839E1A5945A80C5FEA11CC329248145F8AF811F677F7A8083116A3567A",
+                      "Run2SHA256":  "B27DF8839E1A5945A80C5FEA11CC329248145F8AF811F677F7A8083116A3567A"
+                  },
+                  {
+                      "File":  "product_listings.csv",
+                      "Run1Rows":  500,
+                      "Run2Rows":  500,
+                      "Run1SHA256":  "B1649E31EA01C6BE0F9FF942DE2F96E81A9C125828E88581C80869FC7F3710DA",
+                      "Run2SHA256":  "B1649E31EA01C6BE0F9FF942DE2F96E81A9C125828E88581C80869FC7F3710DA"
+                  },
+                  {
+                      "File":  "sellers.csv",
+                      "Run1Rows":  50,
+                      "Run2Rows":  50,
+                      "Run1SHA256":  "1624BCF88C13835869DEEFB5F581CFA423358C144BAD8E0F4F9FB3A28829614A",
+                      "Run2SHA256":  "1624BCF88C13835869DEEFB5F581CFA423358C144BAD8E0F4F9FB3A28829614A"
+                  },
+                  {
+                      "File":  "state_events.csv",
+                      "Run1Rows":  2051,
+                      "Run2Rows":  2051,
+                      "Run1SHA256":  "1E288A637A8648716E241B929AF47DDC58F3E024E615019B9F45193DC34D065E",
+                      "Run2SHA256":  "1E288A637A8648716E241B929AF47DDC58F3E024E615019B9F45193DC34D065E"
+                  }
+              ],
+    "seed":  20261022,
+    "reproducible":  true,
+    "csv_files_compared":  12
+}
